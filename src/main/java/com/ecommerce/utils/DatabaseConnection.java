@@ -8,10 +8,9 @@ public class DatabaseConnection {
   private static DatabaseConnection instance;
   private Connection connection;
 
-  // TODO: Update these credentials or use environment variables
   private static final String URL = "jdbc:mysql://localhost:3306/ecommerce_db";
   private static final String USER = "root";
-  private static final String PASSWORD = "password";
+  private static final String PASSWORD = "root";
 
   private DatabaseConnection() {
     try {
